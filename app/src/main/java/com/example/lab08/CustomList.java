@@ -24,7 +24,9 @@ public class CustomList {
             throw new IllegalArgumentException("City not found");
         }
     }
-
+    public int countCities() {
+        return cities.size();
+    }
 
 
 
